@@ -5,6 +5,10 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { Provider } from 'react-redux';
 import { store } from './components/redux/store/store';
+import { makeServer } from './components/server';
+
+makeServer();
+
 
 ReactDOM.render(
   <React.StrictMode>

@@ -3,7 +3,7 @@ import { useSelector } from "react-redux";
 
 export const CounterDisplay = () => {
   const counter = useSelector((state) => {
-    return state.counter.count;
+    // return state.counter.count;
   });
 
   return (
